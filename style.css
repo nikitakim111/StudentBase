@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: linear-gradient(70deg, #1F1C2C, #2b5876);
+    background-size: 150% 150%;
+    animation: gradient 10s ease infinite;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 195, 3) !important;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+    
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-group {
+
+    margin-right: 10px;
+}
+
+.invalidError {
+    margin-right: 10px;
+    color: #ff0000;
+}
+
+.filter-block {
+    margin-bottom: 10px;
+}
+
+.form__input-student {
+    padding: 5px;
+}
